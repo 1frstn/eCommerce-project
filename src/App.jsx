@@ -1,15 +1,14 @@
-import Header from "./pages/header-page/Header"
-import Navigation from "./pages/navigation-page/Navigation"
-import TopHeder from "./pages/top-header-page/TopHeder"
+import Footer from './components/footer'
+import Header from './components/header'
+import MainPage from './pages/MainPage'
 
-
-function App() {
+const  App=()=> {
 
   return (
     <>
-     <TopHeder/>
      <Header/>
-     <Navigation/>
+     <MainPage/>
+     <Footer/>
     </>
   )
 }
